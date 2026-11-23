@@ -1,0 +1,36 @@
+name: Release Windows Binary
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure CMake
+        run: cmake -B build
+
+      - name: Build Release
+        run: cmake --build build --config Release
+
+      - name: Package Release ZIP
+        run: |
+          New-Item -ItemType Directory -Force -Path dist
+          Copy-Item build/Release/footprint-audit.exe dist/
+          Copy-Item -Recurse data dist/data
+          Copy-Item -Recurse assets dist/assets
+          Compress-Archive -Path dist/* -DestinationPath footprint-audit-win64.zip
+
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: footprint-audit-win64.zip

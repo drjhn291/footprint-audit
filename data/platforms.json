@@ -1,0 +1,813 @@
+[
+	{
+		"name": "GitHub",
+		"category": "Dev & Code",
+		"domain": "github.com",
+		"url": "https://github.com/{}",
+		"mode": "status"
+	},
+	{
+		"name": "GitLab",
+		"category": "Dev & Code",
+		"domain": "gitlab.com",
+		"url": "https://gitlab.com/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Bitbucket",
+		"category": "Dev & Code",
+		"domain": "bitbucket.org",
+		"url": "https://bitbucket.org/{}/",
+		"mode": "status"
+	},
+	{
+		"name": "Dev.to",
+		"category": "Dev & Code",
+		"domain": "dev.to",
+		"url": "https://dev.to/{}",
+		"mode": "status"
+	},
+	{
+		"name": "CodePen",
+		"category": "Dev & Code",
+		"domain": "codepen.io",
+		"url": "https://codepen.io/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Replit",
+		"category": "Dev & Code",
+		"domain": "replit.com",
+		"url": "https://replit.com/@{}",
+		"mode": "status"
+	},
+	{
+		"name": "PyPI",
+		"category": "Dev & Code",
+		"domain": "pypi.org",
+		"url": "https://pypi.org/user/{}/",
+		"mode": "status"
+	},
+	{
+		"name": "npm",
+		"category": "Dev & Code",
+		"domain": "npmjs.com",
+		"url": "https://www.npmjs.com/~{}",
+		"mode": "status"
+	},
+	{
+		"name": "DockerHub",
+		"category": "Dev & Code",
+		"domain": "hub.docker.com",
+		"url": "https://hub.docker.com/v2/users/{}/",
+		"display_url": "https://hub.docker.com/u/{}",
+		"mode": "status"
+	},
+	{
+		"name": "HackerNews",
+		"category": "Dev & Code",
+		"domain": "news.ycombinator.com",
+		"url": "https://hacker-news.firebaseio.com/v0/user/{}.json",
+		"display_url": "https://news.ycombinator.com/user?id={}",
+		"mode": "not_null"
+	},
+	{
+		"name": "Keybase",
+		"category": "Dev & Code",
+		"domain": "keybase.io",
+		"url": "https://keybase.io/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Kaggle",
+		"category": "Dev & Code",
+		"domain": "kaggle.com",
+		"url": "https://www.kaggle.com/{}",
+		"mode": "status"
+	},
+	{
+		"name": "HuggingFace",
+		"category": "Dev & Code",
+		"domain": "huggingface.co",
+		"url": "https://huggingface.co/{}",
+		"mode": "status"
+	},
+	{
+		"name": "SourceForge",
+		"category": "Dev & Code",
+		"domain": "sourceforge.net",
+		"url": "https://sourceforge.net/u/{}/profile/",
+		"mode": "status"
+	},
+	{
+		"name": "Gitee",
+		"category": "Dev & Code",
+		"domain": "gitee.com",
+		"url": "https://gitee.com/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Codeberg",
+		"category": "Dev & Code",
+		"domain": "codeberg.org",
+		"url": "https://codeberg.org/{}",
+		"mode": "status"
+	},
+	{
+		"name": "LeetCode",
+		"category": "Dev & Code",
+		"domain": "leetcode.com",
+		"url": "https://leetcode.com/u/{}/",
+		"mode": "status"
+	},
+	{
+		"name": "Codewars",
+		"category": "Dev & Code",
+		"domain": "codewars.com",
+		"url": "https://www.codewars.com/users/{}",
+		"mode": "status"
+	},
+	{
+		"name": "HackerRank",
+		"category": "Dev & Code",
+		"domain": "hackerrank.com",
+		"url": "https://www.hackerrank.com/profile/{}",
+		"mode": "status"
+	},
+	{
+		"name": "TryHackMe",
+		"category": "Dev & Code",
+		"domain": "tryhackme.com",
+		"url": "https://tryhackme.com/p/{}",
+		"mode": "status"
+	},
+	{
+		"name": "HackTheBox",
+		"category": "Dev & Code",
+		"domain": "hackthebox.com",
+		"url": "https://app.hackthebox.com/profile/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Crates.io",
+		"category": "Dev & Code",
+		"domain": "crates.io",
+		"url": "https://crates.io/api/v1/users/{}",
+		"display_url": "https://crates.io/users/{}",
+		"mode": "status"
+	},
+	{
+		"name": "RubyGems",
+		"category": "Dev & Code",
+		"domain": "rubygems.org",
+		"url": "https://rubygems.org/profiles/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Packagist",
+		"category": "Dev & Code",
+		"domain": "packagist.org",
+		"url": "https://packagist.org/users/{}/",
+		"mode": "status"
+	},
+	{
+		"name": "Hashnode",
+		"category": "Dev & Code",
+		"domain": "hashnode.com",
+		"url": "https://hashnode.com/@{}",
+		"mode": "status"
+	},
+	{
+		"name": "Glitch",
+		"category": "Dev & Code",
+		"domain": "glitch.com",
+		"url": "https://glitch.com/@{}",
+		"mode": "status"
+	},
+	{
+		"name": "Launchpad",
+		"category": "Dev & Code",
+		"domain": "launchpad.net",
+		"url": "https://launchpad.net/~{}",
+		"mode": "status"
+	},
+
+	{
+		"name": "Steam",
+		"category": "Gaming",
+		"domain": "steampowered.com",
+		"url": "https://steamcommunity.com/id/{}",
+		"mode": "text_missing",
+		"pattern": "The specified profile could not be found"
+	},
+	{
+		"name": "Twitch",
+		"category": "Gaming",
+		"domain": "twitch.tv",
+		"url": "https://www.twitch.tv/{}",
+		"mode": "text_present",
+		"pattern": "\"isLiveBroadcast\""
+	},
+	{
+		"name": "Kick",
+		"category": "Gaming",
+		"domain": "kick.com",
+		"url": "https://kick.com/api/v2/channels/{}",
+		"display_url": "https://kick.com/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Chess.com",
+		"category": "Gaming",
+		"domain": "chess.com",
+		"url": "https://api.chess.com/pub/player/{}",
+		"display_url": "https://www.chess.com/member/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Lichess",
+		"category": "Gaming",
+		"domain": "lichess.org",
+		"url": "https://lichess.org/api/user/{}",
+		"display_url": "https://lichess.org/@/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Speedrun.com",
+		"category": "Gaming",
+		"domain": "speedrun.com",
+		"url": "https://www.speedrun.com/api/v1/users/{}",
+		"display_url": "https://www.speedrun.com/users/{}",
+		"mode": "status"
+	},
+	{
+		"name": "osu!",
+		"category": "Gaming",
+		"domain": "osu.ppy.sh",
+		"url": "https://osu.ppy.sh/users/{}",
+		"mode": "status"
+	},
+	{
+		"name": "NameMC",
+		"category": "Gaming",
+		"domain": "namemc.com",
+		"url": "https://namemc.com/profile/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Modrinth",
+		"category": "Gaming",
+		"domain": "modrinth.com",
+		"url": "https://api.modrinth.com/v2/user/{}",
+		"display_url": "https://modrinth.com/user/{}",
+		"mode": "status"
+	},
+	{
+		"name": "CurseForge",
+		"category": "Gaming",
+		"domain": "curseforge.com",
+		"url": "https://www.curseforge.com/members/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Itch.io",
+		"category": "Gaming",
+		"domain": "itch.io",
+		"url": "https://{}.itch.io",
+		"mode": "status"
+	},
+	{
+		"name": "NexusMods",
+		"category": "Gaming",
+		"domain": "nexusmods.com",
+		"url": "https://www.nexusmods.com/users/{}",
+		"mode": "status"
+	},
+	{
+		"name": "FACEIT",
+		"category": "Gaming",
+		"domain": "faceit.com",
+		"url": "https://www.faceit.com/en/players/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Roblox",
+		"category": "Gaming",
+		"domain": "roblox.com",
+		"url": "https://www.roblox.com/user.aspx?username={}",
+		"mode": "status"
+	},
+	{
+		"name": "Xbox Gamertag",
+		"category": "Gaming",
+		"domain": "xboxgamertag.com",
+		"url": "https://xboxgamertag.com/search/{}",
+		"mode": "status"
+	},
+	{
+		"name": "PSNProfiles",
+		"category": "Gaming",
+		"domain": "psnprofiles.com",
+		"url": "https://psnprofiles.com/{}",
+		"mode": "status"
+	},
+	{
+		"name": "RetroAchievements",
+		"category": "Gaming",
+		"domain": "retroachievements.org",
+		"url": "https://retroachievements.org/user/{}",
+		"mode": "status"
+	},
+	{
+		"name": "BoardGameGeek",
+		"category": "Gaming",
+		"domain": "boardgamegeek.com",
+		"url": "https://boardgamegeek.com/user/{}",
+		"mode": "status"
+	},
+	{
+		"name": "GameJolt",
+		"category": "Gaming",
+		"domain": "gamejolt.com",
+		"url": "https://gamejolt.com/@{}",
+		"mode": "status"
+	},
+	{
+		"name": "Kongregate",
+		"category": "Gaming",
+		"domain": "kongregate.com",
+		"url": "https://www.kongregate.com/accounts/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Newgrounds",
+		"category": "Gaming",
+		"domain": "newgrounds.com",
+		"url": "https://{}.newgrounds.com",
+		"mode": "status"
+	},
+	{
+		"name": "FortniteTracker",
+		"category": "Gaming",
+		"domain": "fortnitetracker.com",
+		"url": "https://fortnitetracker.com/profile/all/{}",
+		"mode": "status"
+	},
+	{
+		"name": "ApexTracker",
+		"category": "Gaming",
+		"domain": "apex.tracker.gg",
+		"url": "https://apex.tracker.gg/apex/profile/origin/{}/overview",
+		"mode": "status"
+	},
+	{
+		"name": "OP.GG",
+		"category": "Gaming",
+		"domain": "op.gg",
+		"url": "https://www.op.gg/summoners/euw/{}",
+		"mode": "status"
+	},
+
+	{
+		"name": "Reddit",
+		"category": "Social",
+		"domain": "reddit.com",
+		"url": "https://www.reddit.com/user/{}/about.json",
+		"display_url": "https://www.reddit.com/user/{}",
+		"mode": "status"
+	},
+	{
+		"name": "TikTok",
+		"category": "Social",
+		"domain": "tiktok.com",
+		"url": "https://www.tiktok.com/@{}",
+		"mode": "text_present",
+		"pattern": "\"uniqueId\""
+	},
+	{
+		"name": "Instagram",
+		"category": "Social",
+		"domain": "instagram.com",
+		"url": "https://www.instagram.com/{}/",
+		"mode": "text_present",
+		"pattern": "\"profilePage_"
+	},
+	{
+		"name": "Pinterest",
+		"category": "Social",
+		"domain": "pinterest.com",
+		"url": "https://www.pinterest.com/{}/",
+		"mode": "text_present",
+		"pattern": "\"username\""
+	},
+	{
+		"name": "Telegram",
+		"category": "Social",
+		"domain": "telegram.org",
+		"url": "https://t.me/{}",
+		"mode": "text_present",
+		"pattern": "tgme_page_title"
+	},
+	{
+		"name": "Bluesky",
+		"category": "Social",
+		"domain": "bsky.app",
+		"url": "https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor={}.bsky.social",
+		"display_url": "https://bsky.app/profile/{}.bsky.social",
+		"mode": "status"
+	},
+	{
+		"name": "Mastodon",
+		"category": "Social",
+		"domain": "mastodon.social",
+		"url": "https://mastodon.social/@{}",
+		"mode": "status"
+	},
+	{
+		"name": "Threads",
+		"category": "Social",
+		"domain": "threads.net",
+		"url": "https://www.threads.net/@{}",
+		"mode": "status"
+	},
+	{
+		"name": "Snapchat",
+		"category": "Social",
+		"domain": "snapchat.com",
+		"url": "https://www.snapchat.com/add/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Linktree",
+		"category": "Social",
+		"domain": "linktr.ee",
+		"url": "https://linktr.ee/{}",
+		"mode": "status"
+	},
+	{
+		"name": "About.me",
+		"category": "Social",
+		"domain": "about.me",
+		"url": "https://about.me/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Carrd",
+		"category": "Social",
+		"domain": "carrd.co",
+		"url": "https://{}.carrd.co",
+		"mode": "status"
+	},
+	{
+		"name": "Bento.me",
+		"category": "Social",
+		"domain": "bento.me",
+		"url": "https://bento.me/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Gravatar",
+		"category": "Social",
+		"domain": "gravatar.com",
+		"url": "https://en.gravatar.com/{}",
+		"mode": "status"
+	},
+	{
+		"name": "VK",
+		"category": "Social",
+		"domain": "vk.com",
+		"url": "https://vk.com/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Tumblr",
+		"category": "Social",
+		"domain": "tumblr.com",
+		"url": "https://{}.tumblr.com",
+		"mode": "status"
+	},
+	{
+		"name": "Disqus",
+		"category": "Social",
+		"domain": "disqus.com",
+		"url": "https://disqus.com/by/{}/",
+		"mode": "status"
+	},
+	{
+		"name": "SlideShare",
+		"category": "Social",
+		"domain": "slideshare.net",
+		"url": "https://www.slideshare.net/{}",
+		"mode": "status"
+	},
+	{
+		"name": "SpeakerDeck",
+		"category": "Social",
+		"domain": "speakerdeck.com",
+		"url": "https://speakerdeck.com/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Mastodon.online",
+		"category": "Social",
+		"domain": "mastodon.online",
+		"url": "https://mastodon.online/@{}",
+		"mode": "status"
+	},
+	{
+		"name": "Bio.link",
+		"category": "Social",
+		"domain": "bio.link",
+		"url": "https://bio.link/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Beacons",
+		"category": "Social",
+		"domain": "beacons.ai",
+		"url": "https://beacons.ai/{}",
+		"mode": "status"
+	},
+	{
+		"name": "AllMyLinks",
+		"category": "Social",
+		"domain": "allmylinks.com",
+		"url": "https://allmylinks.com/{}",
+		"mode": "status"
+	},
+
+	{
+		"name": "YouTube",
+		"category": "Media & Art",
+		"domain": "youtube.com",
+		"url": "https://www.youtube.com/@{}",
+		"mode": "status"
+	},
+	{
+		"name": "SoundCloud",
+		"category": "Media & Art",
+		"domain": "soundcloud.com",
+		"url": "https://soundcloud.com/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Spotify",
+		"category": "Media & Art",
+		"domain": "spotify.com",
+		"url": "https://open.spotify.com/user/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Last.fm",
+		"category": "Media & Art",
+		"domain": "last.fm",
+		"url": "https://www.last.fm/user/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Bandcamp",
+		"category": "Media & Art",
+		"domain": "bandcamp.com",
+		"url": "https://{}.bandcamp.com",
+		"mode": "status"
+	},
+	{
+		"name": "Mixcloud",
+		"category": "Media & Art",
+		"domain": "mixcloud.com",
+		"url": "https://www.mixcloud.com/{}/",
+		"mode": "status"
+	},
+	{
+		"name": "Vimeo",
+		"category": "Media & Art",
+		"domain": "vimeo.com",
+		"url": "https://vimeo.com/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Dailymotion",
+		"category": "Media & Art",
+		"domain": "dailymotion.com",
+		"url": "https://www.dailymotion.com/{}",
+		"mode": "status"
+	},
+	{
+		"name": "DeviantArt",
+		"category": "Media & Art",
+		"domain": "deviantart.com",
+		"url": "https://www.deviantart.com/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Behance",
+		"category": "Media & Art",
+		"domain": "behance.net",
+		"url": "https://www.behance.net/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Dribbble",
+		"category": "Media & Art",
+		"domain": "dribbble.com",
+		"url": "https://dribbble.com/{}",
+		"mode": "status"
+	},
+	{
+		"name": "ArtStation",
+		"category": "Media & Art",
+		"domain": "artstation.com",
+		"url": "https://www.artstation.com/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Flickr",
+		"category": "Media & Art",
+		"domain": "flickr.com",
+		"url": "https://www.flickr.com/people/{}/",
+		"mode": "status"
+	},
+	{
+		"name": "Unsplash",
+		"category": "Media & Art",
+		"domain": "unsplash.com",
+		"url": "https://unsplash.com/@{}",
+		"mode": "status"
+	},
+	{
+		"name": "Pexels",
+		"category": "Media & Art",
+		"domain": "pexels.com",
+		"url": "https://www.pexels.com/@{}",
+		"mode": "status"
+	},
+	{
+		"name": "Giphy",
+		"category": "Media & Art",
+		"domain": "giphy.com",
+		"url": "https://giphy.com/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Letterboxd",
+		"category": "Media & Art",
+		"domain": "letterboxd.com",
+		"url": "https://letterboxd.com/{}/",
+		"mode": "status"
+	},
+	{
+		"name": "MyAnimeList",
+		"category": "Media & Art",
+		"domain": "myanimelist.net",
+		"url": "https://myanimelist.net/profile/{}",
+		"mode": "status"
+	},
+	{
+		"name": "AniList",
+		"category": "Media & Art",
+		"domain": "anilist.co",
+		"url": "https://anilist.co/user/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Trakt",
+		"category": "Media & Art",
+		"domain": "trakt.tv",
+		"url": "https://trakt.tv/users/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Rumble",
+		"category": "Media & Art",
+		"domain": "rumble.com",
+		"url": "https://rumble.com/user/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Odysee",
+		"category": "Media & Art",
+		"domain": "odysee.com",
+		"url": "https://odysee.com/@{}",
+		"mode": "status"
+	},
+	{
+		"name": "500px",
+		"category": "Media & Art",
+		"domain": "500px.com",
+		"url": "https://500px.com/p/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Sketchfab",
+		"category": "Media & Art",
+		"domain": "sketchfab.com",
+		"url": "https://sketchfab.com/{}",
+		"mode": "status"
+	},
+
+	{
+		"name": "Medium",
+		"category": "Forums & Other",
+		"domain": "medium.com",
+		"url": "https://medium.com/@{}",
+		"mode": "status"
+	},
+	{
+		"name": "Substack",
+		"category": "Forums & Other",
+		"domain": "substack.com",
+		"url": "https://{}.substack.com",
+		"mode": "status"
+	},
+	{
+		"name": "Patreon",
+		"category": "Forums & Other",
+		"domain": "patreon.com",
+		"url": "https://www.patreon.com/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Ko-fi",
+		"category": "Forums & Other",
+		"domain": "ko-fi.com",
+		"url": "https://ko-fi.com/{}",
+		"mode": "status"
+	},
+	{
+		"name": "BuyMeACoffee",
+		"category": "Forums & Other",
+		"domain": "buymeacoffee.com",
+		"url": "https://www.buymeacoffee.com/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Gumroad",
+		"category": "Forums & Other",
+		"domain": "gumroad.com",
+		"url": "https://{}.gumroad.com",
+		"mode": "status"
+	},
+	{
+		"name": "ProductHunt",
+		"category": "Forums & Other",
+		"domain": "producthunt.com",
+		"url": "https://www.producthunt.com/@{}",
+		"mode": "status"
+	},
+	{
+		"name": "Pastebin",
+		"category": "Forums & Other",
+		"domain": "pastebin.com",
+		"url": "https://pastebin.com/u/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Wikipedia",
+		"category": "Forums & Other",
+		"domain": "wikipedia.org",
+		"url": "https://en.wikipedia.org/wiki/User:{}",
+		"mode": "status"
+	},
+	{
+		"name": "Fiverr",
+		"category": "Forums & Other",
+		"domain": "fiverr.com",
+		"url": "https://www.fiverr.com/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Wattpad",
+		"category": "Forums & Other",
+		"domain": "wattpad.com",
+		"url": "https://www.wattpad.com/user/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Goodreads",
+		"category": "Forums & Other",
+		"domain": "goodreads.com",
+		"url": "https://www.goodreads.com/{}",
+		"mode": "status"
+	},
+	{
+		"name": "Instructables",
+		"category": "Forums & Other",
+		"domain": "instructables.com",
+		"url": "https://www.instructables.com/member/{}/",
+		"mode": "status"
+	},
+	{
+		"name": "Thingiverse",
+		"category": "Forums & Other",
+		"domain": "thingiverse.com",
+		"url": "https://www.thingiverse.com/{}/designs",
+		"mode": "status"
+	},
+	{
+		"name": "Printables",
+		"category": "Forums & Other",
+		"domain": "printables.com",
+		"url": "https://www.printables.com/@{}",
+		"mode": "status"
+	}
+]

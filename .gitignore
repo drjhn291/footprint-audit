@@ -1,0 +1,8 @@
+build/
+dist/
+out/
+.vs/
+*.zip
+*.json
+*.html
+!data/platforms.json
