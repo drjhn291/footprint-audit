@@ -4,7 +4,7 @@
 
 [![Build Windows x64](https://github.com/drjhn291/footprint-audit/actions/workflows/build-windows.yml/badge.svg)](https://github.com/drjhn291/footprint-audit/actions/workflows/build-windows.yml)
 [![GitHub Release](https://img.shields.io/github/v/release/drjhn291/footprint-audit?color=0ea5e9&label=Release)](https://github.com/drjhn291/footprint-audit/releases/latest)
-[![GitHub Downloads](https://img.shields.io/github/downloads/drjhn291/footprint-audit/total?color=10b981&label=Downloads)](https://github.com/drjhn291/footprint-audit/releases)
+[![GitHub Downloads](https://img.shields.io/github/downloads/drjhn291/footprint-audit/total?color=10b981&label=Downloads&v=1)](https://github.com/drjhn291/footprint-audit/releases)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20x64-0078D6?logo=windows)
 ![C++](https://img.shields.io/badge/C%2B%2B-20-00599C?logo=cplusplus)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
